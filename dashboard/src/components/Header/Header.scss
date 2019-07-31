@@ -1,4 +1,13 @@
 .header .header__nav-config {
   justify-content: flex-end;
   flex: inherit;
+  color: black !important;
+}
+
+.infinity-background {
+  background-image: linear-gradient(135deg, #5f6369 0%, rgb(138, 135, 135) 100%);
+}
+
+.header {
+  padding: 0.5em 0 !important;
 }

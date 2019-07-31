@@ -31,10 +31,11 @@ env:
     - REGISTRY=gcr.io
     - VERSION=0.0.$TRAVIS_BUILD_NUMBER
 
-cache:
-  directories:
-  - $HOME/google-cloud-sdk
-  - $HOME/gopath
+# Temporary disabled
+# cache:
+#   directories:
+#   - $HOME/google-cloud-sdk
+#   - $HOME/gopath
 
 before_install:
 - sudo /etc/init.d/postgresql stop
