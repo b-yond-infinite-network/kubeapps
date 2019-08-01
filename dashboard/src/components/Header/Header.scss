@@ -5,9 +5,17 @@
 }
 
 .infinity-background {
-  background-image: linear-gradient(135deg, #5f6369 0%, rgb(138, 135, 135) 100%);
+  background-image: linear-gradient(135deg, #eeeeee 0%, #eeeeee 100%);
 }
 
 .header {
   padding: 0.5em 0 !important;
+}
+
+.header .header__nav__menu__item {
+  color: black;
+}
+
+.header .header__nav ul a {
+  color: black;
 }
